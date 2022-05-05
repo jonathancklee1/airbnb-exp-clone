@@ -1,0 +1,61 @@
+@use "../abstracts/" as *;
+.card {
+  position: relative;
+  margin-right: 1.2rem;
+}
+.card-img {
+  min-width: 11rem;
+  border-radius: 9px;
+  height: 14.5rem;
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.rating,
+.votes,
+.location {
+  margin-left: 2px;
+}
+.rating {
+  color: $text-clr;
+}
+.votes,
+.location {
+  color: $light-grey;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: $light-grey;
+  margin: 0 2px;
+  display: inline-block;
+}
+.pricing {
+  margin-top: 8px;
+  span {
+    font-weight: 600;
+  }
+}
+
+.status {
+  width: 3.8rem;
+  height: 1.25rem;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: $white;
+
+  p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 110%;
+    text-align: center;
+  }
+}

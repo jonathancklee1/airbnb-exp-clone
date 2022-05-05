@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.nav {
+  height: 4.7rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-left: 1.875rem;
+}
+
+.hero {
+  padding: 2.3rem;
+}
+
+.hero-img {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.hero--heading {
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.hero--sub-heading {
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  max-width: 20rem;
+}
+
+.card {
+  position: relative;
+  margin-right: 1.2rem;
+}
+
+.card-img {
+  min-width: 11rem;
+  border-radius: 9px;
+  height: 14.5rem;
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.rating,
+.votes,
+.location {
+  margin-left: 2px;
+}
+
+.rating {
+  color: #222222;
+}
+
+.votes,
+.location {
+  color: #918e9b;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #918e9b;
+  margin: 0 2px;
+  display: inline-block;
+}
+
+.pricing {
+  margin-top: 8px;
+}
+.pricing span {
+  font-weight: 600;
+}
+
+.status {
+  width: 3.8rem;
+  height: 1.25rem;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #ffffff;
+}
+.status p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 110%;
+  text-align: center;
+}
+
+.card-list {
+  padding-left: 2.3rem;
+  display: flex;
+  overflow-x: scroll;
+}/*# sourceMappingURL=styles.css.map */
